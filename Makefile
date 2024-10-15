@@ -8,7 +8,7 @@ PKG_LICENSE:=GPL-3.0-or-later
 ifeq ("$(wildcard ../url-block-test)", "")
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/karen07/url-block-test.git
-PKG_SOURCE_VERSION:=a0d6088ab1e2cbbbd8f09f8dab6642dda6e13111
+PKG_SOURCE_VERSION:=18f285feac5ac4d6bd036209a9c07a76ff977e0f
 endif
 
 include $(INCLUDE_DIR)/package.mk
